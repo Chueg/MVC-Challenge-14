@@ -1,0 +1,53 @@
+header, .post:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+.no-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #1b89bc;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.no-button:hover {
+  color: #065b83;
+  text-decoration: underline;
+}
+
+.dollar-amount {
+  color: #056605;
+  font-weight: bold;
+  margin-left: -5px;
+}
+
+.smokem{
+  background-color: #1b89bc;
+  padding: 10px;
+  outline-style: double;
+}
+
+.mormor{
+  font-size: 30px;
+  color:black;
+  font-weight: 500;
+  margin-right: 100px;
+}
+
+.ranch{
+  color:black;
+  border-style: solid;
+  border-color: black;
+}
+
+.fun{
+  padding: 40px;
+  font-size: 20px;
+}
+
+.smump{
+width:500px;
+height:100px;
+}
