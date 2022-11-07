@@ -19,10 +19,14 @@ The purpose of this project was to get a full understanding on how to make route
 ## Installation
 
 
-Begin with 'npm install' in the Model-View-Controller terminal
+Begin with 'npm install' in the Model-View-Controller terminal]
+
 Open a mySQL terminal and log in, navigate to Model-View-Controller/db/schema.sql and copy its path
+
 Enter command 'SOURCE (paste link)' into mySQL
+
 Navigate to Model-View-Controller terminal and enter command 'npm run seed'
+
 Enter command 'npm start' to begin server
 
 ## Usage
