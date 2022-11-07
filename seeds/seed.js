@@ -5,8 +5,6 @@ const userData = require('./userData.json');
 const postData = require('./postData.json');
 const commentData = require('./commentData.json');
 
-console.log(postData);
-
 const seedDatabase = async () => {
   await sequelize.sync({ force: true });
 

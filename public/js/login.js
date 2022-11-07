@@ -23,7 +23,6 @@ const loginFormHandler = async (event) => {
 };
 
 const signupFormHandler = async (event) => {
-  console.log("Weiner");
   event.preventDefault();
   
   const name = document.querySelector('#name-signup').value.trim();

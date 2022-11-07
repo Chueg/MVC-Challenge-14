@@ -2,8 +2,6 @@ const newFormHandler = async (event) => {
   event.preventDefault();
   const name = document.querySelector('#post-name').value.trim();
   const description = document.querySelector('#post-desc').value.trim();
-
-  console.log(name, description);
   if (name && description) {
     const response = await fetch(`/newPost`, {
       method: 'POST',
@@ -61,8 +59,6 @@ const delButtonHandler = async (event) => {
       }
       else{
         let description = window.prompt('What would you like your updated post to say?');
-
-        console.log(id);
         const response = await fetch(`/post/${id}`, {
           method: 'PUT',
           body: JSON.stringify({

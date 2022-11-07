@@ -5,7 +5,6 @@ const newCommentHandler = async (event) => {
     const comment = document.querySelector('#Comment').value.trim();
     const rump = document.querySelector('.smokem');
     let bump = rump.getAttribute('data-index');
-    console.log(bump);
 
     if (comment) {
       const response = await fetch(`/post/:id/comment`, {

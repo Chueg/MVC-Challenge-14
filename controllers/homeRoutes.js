@@ -41,7 +41,6 @@ router.get('/post/:id', async (req, res) => {
     
     bigChunky = req.params.id;
     const post = postData.get({ plain: true });
-    console.log(post);
     
     
     const rawcommentData = await Comment.findAll({
@@ -138,7 +137,6 @@ router.delete('/post/:id',
 
 router.put('/post/:id', async (req, res) => {
   try {
-    console.log("beef");
     const postData = await Post.update(
       {
           description:req.body.description
