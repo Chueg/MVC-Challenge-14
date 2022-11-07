@@ -33,6 +33,19 @@ Enter command `npm start` to begin server
 
 ## Usage
 
+Navigating to the heroku app will bring you to this page featuring a list of posts and links to them.
+![image](https://user-images.githubusercontent.com/106410591/200405125-8e040cc8-bbf1-4271-9095-1111d9a7fdec.png)
+
+In order to interact with the posts the user must first log in or sign up, clicking the link in the top right will take you to a sign-in page, then entering the information will take you to your dashboard.
+![image](https://user-images.githubusercontent.com/106410591/200405341-4eaa862c-bb98-4f88-a1a3-9e5b9fa74b2b.png)
+![image](https://user-images.githubusercontent.com/106410591/200405559-c111c3bb-5f44-491c-8f1c-b22f9c1ab736.png)
+This dashboard shows the users posts and gives them the option to make a new post or update/delete their previous posts.
+
+Navigating to a previously created post will give the user the option to leave a comment. Leaving a comment will show up underneath the post.
+![image](https://user-images.githubusercontent.com/106410591/200405861-11e45d6f-e496-4e8d-8384-44af8324f1b4.png)
+
+The user then has the option to log out with the button in the top right
+
 
 
 
