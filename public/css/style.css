@@ -25,8 +25,11 @@ header, .post:not(:last-child) {
 
 .smokem{
   background-color: #1b89bc;
-  padding: 10px;
+  padding: 20px;
   outline-style: double;
+  border-radius: 20px;
+
+
 }
 
 .mormor{
@@ -40,6 +43,7 @@ header, .post:not(:last-child) {
   color:black;
   border-style: solid;
   border-color: black;
+  padding: 4px
 }
 
 .fun{
